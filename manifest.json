@@ -1,4 +1,14 @@
 {
+ "name": "Pizza Time", 
+ "short_name": "Pizza",  
+ "theme_color": "#FFB6C1",  
+ "background_color": "#DB7093",  
+ "display": "standalone",  
+ "orientation": "portrait",  
+ "scope": "Placeholder",  
+ "start_url": "."
+}
+{
   "name": "Pizza Time",
   "description": "Лучшая пицца в городе",
   "short_name": "Pizza",
