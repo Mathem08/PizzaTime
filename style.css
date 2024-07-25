@@ -1,0 +1,103 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+ background-image: url(https://kostroma.plast-plus.ru/upload/iblock/543/7.jpg);
+ background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+ font-size: 20px;
+}
+
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    width: 300px; /* Set a fixed width for all menu items */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%; /* Make images fill the width of their containers */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.form { /* Стиль для контейнера с подтверждением */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 600px; 
+    text-align: center;
+}
+
+.form h2 { 
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.form h3 { 
+    color: #555;
+    margin-top: 20px;
+}
+
+.form b { 
+    font-weight: bold;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование - Pizza Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pizza Time</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="profile.html">Профиль</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Бронирование столика</h2>
+        <p>Забронируйте столик в нашей пиццерии прямо сейчас!</p>
+
+        <form action="form.php" method="post"> 
+            <label for="name">Ваше имя:</label> 
+            <input type="text" id="name" name="name" required><br><br> 
+ 
+            <label for="phone">Номер телефона:</label> 
+            <input type="tel" id="phone" name="phone" required><br><br> 
+ 
+            <label for="date">Дата:</label> 
+            <input type="date" id="date" name="date" required><br><br> 
+ 
+            <label for="time">Время:</label> 
+            <input type="time" id="time" name="time" required><br><br> 
+ 
+            <button type="submit">Забронировать</button> 
+        </form> 
+ 
+    </main> 
+ 
+    <footer> 
+        <p>&copy; 2024 Pizza Time</p> 
+    </footer> 
+</body> 
+</html>

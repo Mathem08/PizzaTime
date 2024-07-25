@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование - Pizza Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pizza Time</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="profile.html">Профиль</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <?php
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            // Получение данных из формы
+            $name = $_POST['name'];
+            $phone = $_POST['phone'];
+            $date = $_POST['date'];
+            $time = $_POST['time'];
+
+            echo "<h2>Ваше бронирование:</h2>";
+            echo "<b>Имя:</b> " . $name . "<br>";
+            echo "<b>Телефон:</b> " . $phone . "<br>";
+            echo "<b>Дата:</b> " . $date . "<br>";
+            echo "<b>Время:</b> " . $time . "<br>";
+            echo "<p>Спасибо за бронирование! Мы ждем вас!</p>";
+        } else {
+            echo "<h2>Спасибо за внимание!</h2>";
+        }
+        ?>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pizza Time</p>
+    </footer>
+</body>
+</html>
